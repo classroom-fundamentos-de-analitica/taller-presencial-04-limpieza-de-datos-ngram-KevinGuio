@@ -64,8 +64,7 @@ def generate_cleaned_column(df):
     # Cree la columna 'cleaned' usando el diccionario
     df["cleaned"] = df["fingerprint"].map(fingerprints) 
  
-    
-
+    #
     return df
 
 
